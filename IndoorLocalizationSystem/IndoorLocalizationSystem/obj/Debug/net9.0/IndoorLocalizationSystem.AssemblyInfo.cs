@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndoorLocalizationSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da829ef1c94c9f2dbe54b3d788dea7410d842a9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+190ac77c6a9f4e318a3954ab32b0ba074c96da21")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndoorLocalizationSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndoorLocalizationSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
