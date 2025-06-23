@@ -1,3 +1,9 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using IndoorLocalizationSystem.Data;
+using IndoorLocalizationSystem.Models;
+using IndoorLocalizationSystem.Repositories;
+
 namespace IndoorLocalizationSystem
 {
     public class Program
@@ -8,7 +14,9 @@ namespace IndoorLocalizationSystem
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IStudentRepository, StudentRepository>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
