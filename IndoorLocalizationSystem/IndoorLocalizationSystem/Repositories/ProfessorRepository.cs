@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IndoorLocalizationSystem.Repositories
 {
-    public class ProfessorRepository
+    public class ProfessorRepository: IProfessorRepository
     {
         private readonly AppDbContext _context;
         public ProfessorRepository(AppDbContext context)

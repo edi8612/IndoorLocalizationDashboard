@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using IndoorLocalizationSystem.Data;
 using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Repositories;
+using IndoorLocalizationSystem.Services;
 
 namespace IndoorLocalizationSystem
 {
@@ -16,7 +17,25 @@ namespace IndoorLocalizationSystem
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // Repositories
             builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+            builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+            builder.Services.AddScoped<IProfessorRepository, ProfessorRepository>();
+            builder.Services.AddScoped<IDeviceRepository, DeviceRepository>();
+
+            // Services
+            builder.Services.AddScoped<IStudentService, StudentService>();
+            builder.Services.AddScoped<ICourseService, CourseService>();
+            builder.Services.AddScoped<IProfessorService, ProfessorService>();
+            builder.Services.AddScoped<IDeviceService, DeviceService>();
+
+
+            builder.Services.AddHttpClient("api", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:7176/"); 
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

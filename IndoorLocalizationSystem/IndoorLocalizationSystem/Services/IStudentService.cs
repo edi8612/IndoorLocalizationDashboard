@@ -9,6 +9,7 @@ namespace IndoorLocalizationSystem.Services
         Task AddStudentAsync(Student student);
         Task UpdateStudentAsync(Student student);
         Task DeleteStudentAsync(int id);
+        Task EnrollSudentInDefaultCourseAsync(int studentId, string courseId);
 
     }
 }

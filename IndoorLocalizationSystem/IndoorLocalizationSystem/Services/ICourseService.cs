@@ -9,5 +9,7 @@ namespace IndoorLocalizationSystem.Services
         Task AddCourseAsync(Course course);
         Task UpdateCourseAsync(Course course);
         Task DeleteCourseAsync(string id);
+
+        Task<bool> CanAssignProfessorToCourseAsync(int professorId);
     }
 }

@@ -9,5 +9,6 @@ namespace IndoorLocalizationSystem.Services
         Task AddProfessorAsync(Professor professor);
         Task UpdateProfessorAsync(Professor professor);
         Task DeleteProfessorAsync(int id);
+        Task<IEnumerable<Course>> GetCoursesTaughtByProfessorAsync(int professorId);
     }
 }

@@ -9,6 +9,7 @@ namespace IndoorLocalizationSystem.Services
         Task AddDeviceAsync(Device device);
         Task UpdateDeviceAsync(Device device);
         Task DeleteDeviceAsync(int id);
+        Task AssignDeviceToStudentAsync(Device device);
 
     }
 }
