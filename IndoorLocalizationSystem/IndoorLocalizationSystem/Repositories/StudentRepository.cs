@@ -44,7 +44,8 @@ namespace IndoorLocalizationSystem.Repositories
         {
             return await _context.Students
                 .Include(s => s.Classroom) // Include Classroom navigation property
-                .Include(s => s.Courses) // Include Courses navigation property
+                .Include(s => s.Courses)
+                .Include(s=>s.Device)// Include Courses navigation property
                 .ToListAsync();
         }
 

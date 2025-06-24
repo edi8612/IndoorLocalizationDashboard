@@ -4,6 +4,7 @@ using IndoorLocalizationSystem.Data;
 using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Repositories;
 using IndoorLocalizationSystem.Services;
+using IndoorLocalizationSystem.Profiles;
 
 namespace IndoorLocalizationSystem
 {
@@ -30,6 +31,8 @@ namespace IndoorLocalizationSystem
             builder.Services.AddScoped<IProfessorService, ProfessorService>();
             builder.Services.AddScoped<IDeviceService, DeviceService>();
 
+            // AutoMapper
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
 
             builder.Services.AddHttpClient("api", client =>
             {
@@ -50,7 +53,7 @@ namespace IndoorLocalizationSystem
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseStaticFiles();
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",

@@ -1,0 +1,41 @@
+﻿@model List<IndoorLocalizationSystem.DTOs.CourseDTO>
+
+@{
+    ViewData["Title"] = "Courses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="mt-4">Courses</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Courses</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-book-open me-1"></i>
+        Course List
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Course ID</th>
+                    <th>Name</th>
+                    <th>Professor</th>
+                    <th>Student Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model)
+                {
+                    <tr>
+                        <td>@course.Id</td>
+                        <td>@course.Name</td>
+                        <td>@course.ProfessorName</td>
+                        <td>@course.StudentCount</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

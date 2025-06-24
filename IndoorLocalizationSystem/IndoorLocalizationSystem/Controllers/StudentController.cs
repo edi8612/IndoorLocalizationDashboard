@@ -15,6 +15,8 @@ namespace IndoorLocalizationSystem.Controllers
             _studentService = studentService;
         }
 
+
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetStudentById(int id)
         {
@@ -23,12 +25,18 @@ namespace IndoorLocalizationSystem.Controllers
                 return NotFound();
             return Ok(student);
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAllStudents()
         {
             var students = await _studentService.GetAllStudentsAsync();
             return Ok(students);
         }
+
+
+
+
+
 
         [HttpPost]
         public async Task<IActionResult> AddStudent([FromBody] Student student)

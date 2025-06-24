@@ -1,4 +1,6 @@
-﻿using IndoorLocalizationSystem.Models;
+﻿using AutoMapper;
+using IndoorLocalizationSystem.DTOs;
+using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Repositories;
 
 namespace IndoorLocalizationSystem.Services
@@ -6,18 +8,32 @@ namespace IndoorLocalizationSystem.Services
     public class StudentService: IStudentService
     {
         private readonly IStudentRepository _studentRepository;
-        public StudentService(IStudentRepository studentRepository)
+        private readonly IMapper _mapper;
+        public StudentService(IStudentRepository studentRepository, IMapper mapper)
         {
             _studentRepository = studentRepository;
+            _mapper = mapper;
         }
-        public async Task<Student> GetStudentByIdAsync(int id)
+
+
+        public async Task<StudentDTO> GetStudentByIdAsync(int id)
         {
-            return await _studentRepository.GetStudentByIdAsync(id);
+
+            var student = await _studentRepository.GetStudentByIdAsync(id);
+            return _mapper.Map<StudentDTO>(student); 
         }
-        public async Task<IEnumerable<Student>> GetAllStudentsAsync()
+
+        public async Task<IEnumerable<StudentDTO>> GetAllStudentsAsync()
         {
-            return await _studentRepository.GetAllStudentsAsync();
+            var students = await _studentRepository.GetAllStudentsAsync();
+            return _mapper.Map<List<StudentDTO>>(students); 
         }
+
+
+
+
+
+
         public async Task AddStudentAsync(Student student)
         {
             if(string.IsNullOrWhiteSpace(student.Name))

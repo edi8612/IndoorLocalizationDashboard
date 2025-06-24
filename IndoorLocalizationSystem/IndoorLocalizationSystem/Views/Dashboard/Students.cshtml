@@ -1,0 +1,47 @@
+﻿@model List<IndoorLocalizationSystem.DTOs.StudentDTO>
+
+@{
+    ViewData["Title"] = "Students";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Students</h1>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Student List
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Attended</th>
+                        <th>Classroom</th>
+                        <th>Device MAC</th>
+                        <th>X</th>  <!-- New -->
+                        <th>Y</th>  <!-- New -->
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var student in Model)
+                    {
+                        <tr>
+                            <td>@student.Id</td>
+                            <td>@student.Name</td>
+                            <td>@(student.Attended ? "Yes" : "No")</td>
+                            <td>@student.ClassroomName</td>
+                            <td>@student.DeviceMacAddress</td>
+                            <td>@student.PositionX</td> <!-- New -->
+                            <td>@student.PositionY</td> <!-- New -->
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>

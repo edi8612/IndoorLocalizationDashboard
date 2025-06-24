@@ -43,8 +43,8 @@ namespace IndoorLocalizationSystem.Data
             );
 
             modelBuilder.Entity<Device>().HasData(
-                new Device { Id = 1,Name="Alice's iphone", MACAddress = "AA:BB:CC:DD:EE:01", StudentId = 1 },
-                new Device { Id = 2, Name = "Bob's iphone", MACAddress = "AA:BF:CC:DD:EC:02", StudentId = 2 }
+                new Device { Id = 1,Name="Alice's iphone", MACAddress = "AA:BB:CC:DD:EE:01", StudentId = 1, PositionX = 1.73f, PositionY = 2.5f  },
+                new Device { Id = 2, Name = "Bob's iphone", MACAddress = "AA:BF:CC:DD:EC:02", StudentId = 2, PositionX = 1.83f, PositionY = 2.1f }
             );
         }
 

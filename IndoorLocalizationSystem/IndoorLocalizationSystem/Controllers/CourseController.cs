@@ -19,14 +19,17 @@ namespace IndoorLocalizationSystem.Controllers
         public async Task<IActionResult> GetCourseById(string id)
         {
             var course = await _courseService.GetCourseByIdAsync(id);
+            
             return course == null ? NotFound() : Ok(course);
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAllCourses()
         {
             var courses = await _courseService.GetAllCoursesAsync();
             return Ok(courses);
         }
+
         [HttpPost]
         public async Task<IActionResult> AddCourse([FromBody] Course course)
         {

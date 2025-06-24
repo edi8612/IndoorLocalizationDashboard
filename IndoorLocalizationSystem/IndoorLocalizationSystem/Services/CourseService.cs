@@ -1,5 +1,8 @@
-﻿using IndoorLocalizationSystem.Models;
+﻿using AutoMapper;
+using IndoorLocalizationSystem.DTOs;
+using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace IndoorLocalizationSystem.Services
 {
@@ -7,20 +10,25 @@ namespace IndoorLocalizationSystem.Services
     {
         private readonly ICourseRepository _courseRepository;
         private readonly IProfessorRepository _professorRepository;
-        public CourseService(ICourseRepository courseRepository, IProfessorRepository professorRepository)
+        private readonly IMapper _mapper;
+        public CourseService(ICourseRepository courseRepository, IProfessorRepository professorRepository, IMapper mapper)
         {
             _courseRepository = courseRepository;
             _professorRepository = professorRepository;
+            _mapper = mapper;
         }
-        public async Task<Course> GetCourseByIdAsync(string id)
+        public async Task<CourseDTO> GetCourseByIdAsync(string id)
         {
-            return await _courseRepository.GetCourseByIdAsync(id);
+            var course = await _courseRepository.GetCourseByIdAsync(id);
+            return _courseRepository.GetCourseByIdAsync(id) == null ? null : _mapper.Map<CourseDTO>(course);
         }
-        public async Task<IEnumerable<Course>> GetAllCoursesAsync()
+        public async Task<IEnumerable<CourseDTO>> GetAllCoursesAsync()
         {
-            return await _courseRepository.GetAllCoursesAsync();
+            var courses = await _courseRepository.GetAllCoursesAsync();
+            return _mapper.Map<List<CourseDTO>>(courses);
         }
 
+        
 
         public async Task AddCourseAsync(Course course)
         {
@@ -60,6 +68,13 @@ namespace IndoorLocalizationSystem.Services
                 throw new Exception("Professor not found.");
 
             return professor.Courses.Count < 3;
+        }
+
+        public async Task<List<CourseDTO>> GetStudentsPerCourseStatsAsync()
+        {
+            var courses = await _courseRepository.GetAllCoursesAsync();
+                
+            return _mapper.Map<List<CourseDTO>>(courses);
         }
 
 
