@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndoorLocalizationSystem", "IndoorLocalizationSystem\IndoorLocalizationSystem.csproj", "{B909A968-EDF2-460A-B362-B80AF424B812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndoorLocalizationSystem.Testing", "IndoorLocalizationSystem.Testing\IndoorLocalizationSystem.Testing.csproj", "{101C7649-625C-40CB-B561-2DD8ABC9DEAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B909A968-EDF2-460A-B362-B80AF424B812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B909A968-EDF2-460A-B362-B80AF424B812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B909A968-EDF2-460A-B362-B80AF424B812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101C7649-625C-40CB-B561-2DD8ABC9DEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101C7649-625C-40CB-B561-2DD8ABC9DEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101C7649-625C-40CB-B561-2DD8ABC9DEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101C7649-625C-40CB-B561-2DD8ABC9DEAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

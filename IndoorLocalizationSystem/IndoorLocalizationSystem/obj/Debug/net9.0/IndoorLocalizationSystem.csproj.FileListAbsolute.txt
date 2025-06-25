@@ -8,7 +8,9 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\IndoorLocalizationSystem.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\IndoorLocalizationSystem.pdb
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Castle.Core.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Humanizer.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -34,6 +36,7 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
@@ -47,6 +50,12 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -56,6 +65,7 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Moq.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Npgsql.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
@@ -75,6 +85,7 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.Composition.Runtime.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.Composition.TypedParts.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.Text.Json.dll
@@ -246,11 +257,14 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\scopedcss\bundle\IndoorLocalizationSystem.styles.css
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\scopedcss\projectbundle\IndoorLocalizationSystem.bundle.scp.css
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\7d4xtnmvlq-f3nwragx5n.gz
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\t4yzawe4i1-1v0w1kkiwu.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\nvbqsemmh0-hw7eaup9v4.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\fioni6dw8o-yp87i3fbss.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\gy2yfyig3j-b9sayid5wm.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\4gubtxv4ir-mf45fbw2f4.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\tugkgjxgve-61n19gt1b8.gz
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\8ub01tjeq3-do4m0mmae8.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\lo09lz4dd7-dqle62frat.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\aaw7lmig55-xtxxf3hu2r.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\prq7tm6ks1-bqjiyaj88i.gz
@@ -325,14 +339,3 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\IndoorLocalizationSystem.pdb
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\IndoorLocalizationSystem.genruntimeconfig.cache
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\ref\IndoorLocalizationSystem.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\7d4xtnmvlq-f3nwragx5n.gz
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\t4yzawe4i1-1v0w1kkiwu.gz
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\8ub01tjeq3-do4m0mmae8.gz
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
