@@ -3,44 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\views\\dashboard\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\views\\dashboard\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Migrations\\20250625165855_UpdatedSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IndoorLocalizationSystem\\Migrations\\20250625165855_UpdatedSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\views\\account\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\views\\account\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\wwwroot\\js\\student-positions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\wwwroot\\js\\student-positions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|c:\\users\\edign\\indoorlocalizationdashboard\\indoorlocalizationsystem\\indoorlocalizationsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B909A968-EDF2-460A-B362-B80AF424B812}|IndoorLocalizationSystem\\IndoorLocalizationSystem.csproj|solutionrelative:indoorlocalizationsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +66,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250625165855_UpdatedSeed.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Migrations\\20250625165855_UpdatedSeed.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Migrations\\20250625165855_UpdatedSeed.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Migrations\\20250625165855_UpdatedSeed.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Migrations\\20250625165855_UpdatedSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:58:55.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwDwAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:37:56.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwFIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:35:33.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\DeviceController.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\DeviceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:35:06.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\ProfessorController.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\ProfessorController.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\ProfessorController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA0wFEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:33:11.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:31:30.032Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -66,132 +160,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Courses.cshtml",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Dashboard\\Courses.cshtml",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Views\\Dashboard\\Courses.cshtml",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Dashboard\\Courses.cshtml",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Views\\Dashboard\\Courses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T17:14:12.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T17:06:59.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "student-positions.js",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\wwwroot\\js\\student-positions.js",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\wwwroot\\js\\student-positions.js",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\wwwroot\\js\\student-positions.js",
-              "RelativeToolTip": "IndoorLocalizationSystem\\wwwroot\\js\\student-positions.js",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-24T15:50:20.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Services\\CourseService.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Services\\CourseService.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Services\\CourseService.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Services\\CourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T14:53:40.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICourseService.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Services\\ICourseService.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Services\\ICourseService.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Services\\ICourseService.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Services\\ICourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T14:51:38.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:45:57.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Profiles\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Profiles\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Profiles\\MappingProfile.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Profiles\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:42:56.573Z",
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Account\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Views\\Account\\AssignRole.cshtml",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Account\\AssignRole.cshtml",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Views\\Account\\AssignRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T16:07:12.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\DTOs\\StudentDTO.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\DTOs\\StudentDTO.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\DTOs\\StudentDTO.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\DTOs\\StudentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:40:00.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Program.cs",
-              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Program.cs",
-              "RelativeToolTip": "IndoorLocalizationSystem\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T13:33:26.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "IndoorLocalizationSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGkAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T13:31:08.067Z",
+              "WhenOpened": "2025-06-25T15:56:01.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:05:44.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Program.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwIwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:42:57.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:11:54.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T13:50:11.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T13:11:30.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "IndoorLocalizationSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\edign\\IndoorLocalizationDashboard\\IndoorLocalizationSystem\\IndoorLocalizationSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "IndoorLocalizationSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T13:11:20.459Z",
               "EditorCaption": ""
             }
           ]

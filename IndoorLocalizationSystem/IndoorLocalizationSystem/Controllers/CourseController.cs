@@ -1,5 +1,6 @@
 ﻿using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,6 +32,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> AddCourse([FromBody] Course course)
         {
             try
@@ -44,6 +46,7 @@ namespace IndoorLocalizationSystem.Controllers
             }
         }
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> UpdateCourse(string id, [FromBody] Course course)
         {
             if (id != course.Id) return BadRequest("ID mismatch.");
@@ -59,6 +62,7 @@ namespace IndoorLocalizationSystem.Controllers
             }
         }
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> DeleteCourse(string id)
         {
             try
@@ -76,6 +80,7 @@ namespace IndoorLocalizationSystem.Controllers
 
         // Business logic to check if a professor can be assigned to a course
         [HttpGet("can-assign-professor/{professorId}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> CanAssign(int professorId)
         {
             try

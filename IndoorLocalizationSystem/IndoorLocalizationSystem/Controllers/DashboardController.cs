@@ -1,12 +1,14 @@
 ﻿using IndoorLocalizationSystem.DTOs;
 using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using static System.Net.WebRequestMethods;
 
 namespace IndoorLocalizationSystem.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
       private readonly HttpClient _httpClient;

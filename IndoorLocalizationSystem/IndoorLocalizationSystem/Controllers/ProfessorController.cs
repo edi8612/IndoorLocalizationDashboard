@@ -1,5 +1,6 @@
 ﻿using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +31,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Create(Professor professor)
         {
             try
@@ -44,6 +46,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Update(int id, Professor professor)
         {
             if (id != professor.Id) return BadRequest("ID mismatch.");
@@ -60,6 +63,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Delete(int id)
         {
             try
@@ -75,6 +79,7 @@ namespace IndoorLocalizationSystem.Controllers
 
         //Get all courses taught by professor
         [HttpGet("{id}/courses")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> GetCourses(int id)
         {
             try

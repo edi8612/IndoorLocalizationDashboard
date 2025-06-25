@@ -328,3 +328,11 @@ C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocali
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\7d4xtnmvlq-f3nwragx5n.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\t4yzawe4i1-1v0w1kkiwu.gz
 C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\obj\Debug\net9.0\compressed\8ub01tjeq3-do4m0mmae8.gz
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\edign\IndoorLocalizationDashboard\IndoorLocalizationSystem\IndoorLocalizationSystem\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

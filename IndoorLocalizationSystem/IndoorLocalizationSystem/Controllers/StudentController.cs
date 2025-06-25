@@ -1,5 +1,6 @@
 ﻿using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,12 +34,8 @@ namespace IndoorLocalizationSystem.Controllers
             return Ok(students);
         }
 
-
-
-
-
-
         [HttpPost]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> AddStudent([FromBody] Student student)
         {
             try
@@ -53,6 +50,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> UpdateStudent(int id, [FromBody] Student student)
         {
             if (id != student.Id) return BadRequest("ID mismatch.");
@@ -69,6 +67,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> DeleteStudent(int id)
         {
             try
@@ -84,6 +83,7 @@ namespace IndoorLocalizationSystem.Controllers
 
         // Additional endpoint to enroll a student in their default courses based on their classroom
         [HttpPost("{id}/enroll-default-courses/{courseId}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> EnrollInDefaults(int id,string courseId)
         {
             try

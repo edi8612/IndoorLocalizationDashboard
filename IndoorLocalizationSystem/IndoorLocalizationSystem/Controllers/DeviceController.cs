@@ -1,5 +1,6 @@
 ﻿using IndoorLocalizationSystem.Models;
 using IndoorLocalizationSystem.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,6 +31,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Create(Device device)
         {
             try
@@ -44,6 +46,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Update(int id, Device device)
         {
             if (id != device.Id) return BadRequest("ID mismatch.");
@@ -60,6 +63,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Delete(int id)
         {
             try
@@ -74,6 +78,7 @@ namespace IndoorLocalizationSystem.Controllers
         }
 
         [HttpPost("assign")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> Assign([FromBody] Device device)
         {
             try

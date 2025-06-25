@@ -1,0 +1,30 @@
+﻿@using IndoorLocalizationSystem.DTOs
+@model AssignRoleDTO
+
+@{
+    ViewData["Title"] = "Assign Role";
+}
+
+<h2>Assign Role</h2>
+
+<form asp-action="AssignRole" method="post">
+    <div class="form-group">
+        <label for="Username">Username</label>
+        <input asp-for="Username" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Role">Select Role</label>
+        <select asp-for="Role" class="form-control">
+            <option value="Student">Student</option>
+            <option value="Professor">Professor</option>
+            <option value="Admin">Admin</option>
+        </select>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Assign Role</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info mt-3">@ViewBag.Message</div>
+}
